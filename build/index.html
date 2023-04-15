@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rating Component</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="img/favicon-32x32.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body class="bg-[#121417] antialiased min-h-screen grid place-content-center">
+    <div
+      class="container border-none w-96 h-96 bg-[#252d37] rounded-3xl p-7 space-y-5 close-illustration"
+    >
+      <img
+        class="border-none bg-[#2d343b] p-4 rounded-full"
+        src="img/icon-star.png"
+        alt="icon-star"
+      />
+      <h2 class="text-white text-2xl font-medium">How did we do?</h2>
+      <p class="text-[#959eac] text-sm font-extralight">
+        Please let us know how we did with your support request. All feedback is
+        appreciated to help us improve our offering!
+      </p>
+      <div class="flex justify-start items-center gap-4 text-[#959eac]">
+        <button
+          class="border-none bg-[#2d343b] w-[50px] h-[50px] rounded-full focus:bg-[#959eac] focus:text-white focus:font-bold hover:bg-[#fb7413] hover:text-white hover:font-bold one transition duration-1000"
+        >
+          1
+        </button>
+        <button
+          class="border-none bg-[#2d343b] w-[50px] h-[50px] rounded-full focus:bg-[#959eac] focus:text-white focus:font-bold hover:bg-[#fb7413] hover:text-white hover:font-bold two transition duration-1000"
+        >
+          2
+        </button>
+        <button
+          class="border-none bg-[#2d343b] w-[50px] h-[50px] rounded-full focus:bg-[#959eac] focus:text-white focus:font-bold hover:bg-[#fb7413] hover:text-white hover:font-bold three transition duration-1000"
+        >
+          3
+        </button>
+        <button
+          class="border-none bg-[#2d343b] w-[50px] h-[50px] rounded-full focus:bg-[#959eac] focus:text-white focus:font-bold hover:bg-[#fb7413] hover:text-white hover:font-bold four transition duration-1000"
+        >
+          4
+        </button>
+        <button
+          class="border-none bg-[#2d343b] w-[50px] h-[50px] rounded-full focus:bg-[#959eac] focus:text-white focus:font-bold hover:bg-[#fb7413] hover:text-white hover:font-bold five transition duration-1000 "
+        >
+          5
+        </button>
+      </div>
+      <button
+        class="bg-[#fb7413] text-white w-80 py-2.5 uppercase rounded-full hover:bg-white hover:text-[#fb7413] open-illustration transition duration-1000"
+      >
+        Submit
+      </button>
+    </div>
+    <div class="hidden illustration">
+      <div
+        class="flex flex-col justify-center items-center container border-none w-96 h-96 bg-[#252d37] rounded-3xl p-7"
+      >
+        <img
+          class="pb-6"
+          src="img/illustration-thank-you.png"
+          alt="illustration-thank-you"
+        />
+        <p
+          class="bg-[#2d343b] py-1.5 px-3.5 rounded-full text-sm text-[#fb7413]"
+        >
+          You selected <span class="number">4</span> out of 5
+        </p>
+        <h3 class="text-white font-bold text-2xl pt-7">Thank you!</h3>
+        <p class="text-center text-[14.5px] pt-2.5 text-[#959eac]">
+          We appreciate you taking the time to give a rating. If you ever need
+          more support, don't hesitate to get in touch!
+        </p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
